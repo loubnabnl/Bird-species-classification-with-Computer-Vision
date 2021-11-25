@@ -2,7 +2,7 @@
 
 This project was part of the MVA kaggle challenge of the Object Recognition and Computer Vision course.
 We tried to predict bird breeds using Computer Vision techniques.
-The images were taken from the Caltech-UCSD Birds-200-2011 bird.
+The images were taken from the Caltech-UCSD Birds-200-2011 dataset.
 Given 1187 images and 20 target categories, the goal is to build 
 a model with the highest accracy on a test dataset containing the
 same classes. <br>
