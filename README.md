@@ -8,14 +8,14 @@ a model with the highest accracy on a test dataset containing the
 same classes. <br>
 To avoid overfitting and make use of the performant models that were 
 trained on large datasets such as ImageNet, we used the concept of 
-transfer learning \cite{btransfer}. We also did some preprocessing, 
+transfer learning. We also did some preprocessing, 
 before applying the model, using birds cropping and data augmentation
  techniques. This enabled us to detect bird breeds better and to enrich our dataset.
 
 ### Overview of the files
 * Install packages using requirement.txt file.
 * To perfrom cropping on the images using YOLOv3 for object detection model run crop_birds.py.
-* main_file.py allows to train and save a ResNet101 model.
+* main_file.py allows you to train and save a ResNet101 model.
 * evaluate.py allows you to evaluate your model on the test set and predicts classes of the images in this set.
 * data.py contains code for data augmentation and images resizing.
 * model.py has the code for creating ResNet models.
